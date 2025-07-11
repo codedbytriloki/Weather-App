@@ -33,19 +33,19 @@ searchIcon.addEventListener('click', async() => {
     wind.textContent = `${data.wind.speed} km/h`;
 
     if (data.weather[0].main == "Clouds") {
-      img.src = "clouds.png";
+      img.src = "images/clouds.png";
     } 
     else if (data.weather[0].main == "Clear") {
-      img.src = "clear.png";
+      img.src = "images/clear.png";
     } 
     else if (data.weather[0].main == "Rain") {
-      img.src = "rain.png";
+      img.src = "images/rain.png";
     }
     else if (data.weather[0].main == "Drizzle") {
-      img.src = "drizzle.png";
+      img.src = "images/drizzle.png";
     } 
     else if (data.weather[0].main == "Mist") {
-      img.src = "mist.png";
+      img.src = "images/mist.png";
     }
     document.querySelector(".display-container").style.display = "block";
 }
