@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color:rgb(156, 233, 235);
+  text-align: center;
+  padding: 20px;
+}
+.container{
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  background: linear-gradient(135deg,#05d3e2,#3e3b98);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding: 10px 50px;
+}
+
+.search-field{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 7px;
+}
+.search-field input{
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  background: #fff;
+}
+.search-field button{
+  padding: 8px 10px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  background: #fff;
+}
+.search-field button img{
+  width: 16px;
+}
+.imgfield{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.imgfield{
+  width: 100%;
+}
+.imgfield img{
+  width: 180px;
+}
+#temperature{
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+}
+#cityName{
+  font-size: 23px;
+  font-weight: 700;
+  color: #fff;
+}
+.wind-humidity{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 25px 0;
+}
+.content img{
+  width: 25px;
+  height: 25px;
+}
+#humidity, #wind{
+  font-size: 23px;
+  color: #fff;
+}
+.content p{
+  font-size: 14px;
+  color: #fff;
+  margin-top: 4px;
+}
+.error{
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.2s all;
+  display: none;
+}
+.display-container{
+  display: none;
+  transition: 1s all;
+}
