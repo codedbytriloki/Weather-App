@@ -1,25 +1,27 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
 }
-body{
-  background-color:rgb(156, 233, 235);
+
+body {
+  background-color: rgb(128, 208, 209);
   text-align: center;
-  padding: 20px;
+  padding: 20px 15px;
 }
-.container{
-  width: 400px;
+
+.container {
+  max-width: 400px;
   margin: auto;
   margin-top: 20px;
-  background: linear-gradient(135deg,#05d3e2,#3e3b98);
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  background: linear-gradient(135deg, #05d3e2, #3e3b98);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding: 10px 50px;
 }
 
-.search-field{
+.search-field {
   width: 100%;
   display: flex;
   align-items: center;
@@ -27,7 +29,8 @@ body{
   padding-top: 20px;
   padding-bottom: 7px;
 }
-.search-field input{
+
+.search-field input {
   flex: 1;
   padding: 10px;
   font-size: 16px;
@@ -36,7 +39,8 @@ body{
   border-radius: 25px;
   background: #fff;
 }
-.search-field button{
+
+.search-field button {
   padding: 8px 10px;
   border: none;
   border-radius: 50%;
@@ -44,62 +48,76 @@ body{
   outline: none;
   background: #fff;
 }
-.search-field button img{
+
+.search-field button img {
   width: 16px;
 }
-.imgfield{
+
+.imgfield {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-.imgfield{
+
+.imgfield {
   width: 100%;
 }
-.imgfield img{
+
+.imgfield img {
   width: 180px;
 }
-#temperature{
+
+#temperature {
   font-size: 40px;
   font-weight: 400;
   color: #fff;
 }
-#cityName{
+
+#cityName {
   font-size: 23px;
   font-weight: 700;
   color: #fff;
 }
-.wind-humidity{
+
+.wind-humidity {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.content{
+
+.content {
   display: flex;
   align-items: center;
   gap: 10px;
   margin: 25px 0;
 }
-.content img{
+
+.content img {
   width: 25px;
   height: 25px;
 }
-#humidity, #wind{
+
+#humidity,
+#wind {
   font-size: 23px;
   color: #fff;
 }
-.content p{
+
+.content p {
   font-size: 14px;
   color: #fff;
   margin-top: 4px;
 }
-.error{
+
+.error {
   margin-top: 10px;
   color: #fff;
   font-weight: 500;
   transition: 0.2s all;
   display: none;
 }
-.display-container{
+
+.display-container {
   display: none;
   transition: 1s all;
 }
